@@ -60,37 +60,6 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 📁 Folder Structure
-
-```
-banana-dapp/
-│
-├── src/
-│   ├── components/        # Reusable React components (buttons, forms, etc.)
-│   ├── pages/             # Pages (Home, Wallet, History, etc.)
-│   ├── context/           # React context for managing wallet & token state
-│   ├── utils/             # Helper files (ABI, contract config)
-│   └── App.jsx            # Root React file
-│
-├── public/                # Static assets (logo, icons, etc.)
-├── package.json
-├── README.md
-└── vite.config.js
-```
-
----
-
-## 🌐 Deployment
-
-You can deploy this DApp easily using **Vercel**, **Netlify**, or **GitHub Pages**.  
-Make sure your contract address and network match your deployed contract before building:
-
-```bash
-npm run build
-```
-
----
-
 ## 🤝 Contributing
 
 Pull requests are welcome!  
